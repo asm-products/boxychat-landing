@@ -1,0 +1,71 @@
+body { font-size: 100%; text-align: center; font-family: "latoregular"; }
+.container { margin: 0 auto; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+.title { font-size: 2em; } 
+.feature-info { font-size: 1em; margin-bottom: 1em;  }
+.info { font-size: 1.25em; margin-bottom: 1em; font-style: italic; }
+.section-img { width: 100%; margin-bottom: 1em; }
+.line { background: lightgrey; height: .0625em; width: 90%; border: none; }
+
+#logo-header { margin: 0 auto; color: #515F71; margin-bottom: 2em; text-transform: uppercase; }
+#logo-copy { line-height: 3em; margin-left: .75em; }
+ 
+#hero { padding: 2em 2em 0em 2em; background: #ECEFF3; }
+#hero-press { color: #515F71; margin-bottom: 1em; }
+#hero .section-img { margin-top: 2em; }
+#hero-img { background: url("../img/herocomputer.png") no-repeat; padding: 6em; background-size: cover; }
+
+#invite { padding: 2.5em 1em 2.5em 1em; }
+#invite-info { color: #A5A9AF; }
+#invite .section-img { width: 4.15em; }
+
+#assembly { background: url("../img/assemblyBox.png") #B26454 no-repeat -15em; padding: 2.5em; }
+#assembly-title { color: #fff; }
+#assembly-info { color: #434343; }
+
+#benefit { padding: 2.5em; }
+#benefit-title { color:#48515B; }
+#benefit-info { color: #A5A9AF; }
+
+#features { padding: 2.5em; }
+#features-info { color: #A5A9AF; }
+
+#footer { background: #ECEFF3; padding: 1em; }
+#footer-copyright { display: inline; line-height: 3em; margin-left: .75em; color: #AEB4BE; }
+#footer-list { list-type-style: none; color: #5C6678; margin-top: 1em; }
+.footer-link { display: inline; margin-left: 1em; cursor: pointer; }
+
+@media screen and (min-width: 40em)
+{
+	.container { width: 35em; }
+	
+	#hero .section-img { width: 35em; }
+	#hero-img { padding: 12.50em; }
+}
+
+@media screen and (min-width: 50em)
+{	
+	.container { width: 60em; }
+	.left-50em { float: left; }
+	.right-50em { float: right; }
+	
+	#hero { padding: 4em 4em 0em 4em; }
+	#hero-press { position: relative; top: -65px; text-align: center; }
+	#hero-img { padding: 15.5em; background-position: top; width: 20%; margin: 0 auto; }
+	
+	#invite { padding: 8em; }
+	
+	#assembly { background: url("../img/assemblyBox.png") #B26454 no-repeat 3em; padding: 8em; text-align: left; padding-left: 40%; }
+	
+	#benefit { padding: 8em; }
+	#benefit .section-img { width: 40%; float: left; }
+	#benefit-title { text-align: left; width: 50%; }
+	#benefit-info { text-align: left; width: 50%; }
+	
+	#features { box-sizing: border-box; padding: 8em; }
+	#features-info { margin-bottom: 3em; } 
+	#feature1, #feature2, #feature3, #feature4 { width: 50%; text-align: left; margin-bottom: 3em; }
+}

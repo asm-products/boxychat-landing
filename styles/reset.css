@@ -1,0 +1,3 @@
+/*CSS Reset*/
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, em, img, ol, ul, li, form, table, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; vertical-align: baseline; }
