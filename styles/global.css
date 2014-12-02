@@ -35,6 +35,7 @@ body { font-size: 100%; text-align: center; font-family: "latoregular"; }
 
 #footer { background: #ECEFF3; padding: 1em; }
 #footer-copyright { display: inline; line-height: 3em; margin-left: .75em; color: #AEB4BE; }
+#footer-copyright a { color: #AEB4BE; text-decoration: none;}
 #footer-list { list-type-style: none; color: #5C6678; margin-top: 1em; }
 .footer-link { display: inline; margin-left: 1em; cursor: pointer; }
 
